@@ -8,12 +8,23 @@
 build/
 
 
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Visual Studio Code cache/options directory
+#.vscode/
+
+
+# Pico Pio project specific, auto generated
+*.pio.h
+
+
 # other
-VC%_schematic_old/
+VC5_schematic_old/
 3D_model/
 Downloads/
 
 # temp
 Documents/
 Hardware/
-WinApp/
+
