@@ -11,24 +11,26 @@
 		(comment 1 "Designed by Jan Eberhardt")
 	)
 	(lib_symbols
-		(symbol "VC5_display:Display,_8_pin"
+		(symbol "VC5_library:Waveshare-Display-1_3in-SH1106-OLED"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at 0 -1.9049 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "1.3in SH1106 OLED"
+				(at -22.352 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -40,7 +42,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.waveshare.com/wiki/1.3inch_OLED_(B)#Overview"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Display,_8_pin_0_1"
+			(symbol "Waveshare-Display-1_3in-SH1106-OLED_0_1"
 				(rectangle
 					(start -24.13 2.54)
 					(end -24.13 -7.62)
@@ -148,7 +150,7 @@
 					)
 				)
 			)
-			(symbol "Display,_8_pin_1_1"
+			(symbol "Waveshare-Display-1_3in-SH1106-OLED_1_1"
 				(pin power_in line
 					(at -21.59 -11.43 90)
 					(length 3.81)
@@ -1733,16 +1735,17 @@
 		)
 	)
 	(symbol
-		(lib_id "VC5_display:Display,_8_pin")
-		(at 205.74 49.53 0)
+		(lib_id "VC5_library:Waveshare-Display-1_3in-SH1106-OLED")
+		(at 242.57 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "29333e1f-9499-402b-afd9-487fd83a906b")
-		(property "Reference" "U4"
-			(at 205.74 51.4349 0)
+		(fields_autoplaced yes)
+		(uuid "1ce42bb6-5cca-46a5-8c0b-3db372eb26ec")
+		(property "Reference" "U5"
+			(at 242.57 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1754,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 183.642 45.974 0)
+			(at 242.57 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 49.53 0)
+			(at 242.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1772,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waveshare.com/wiki/1.3inch_OLED_(B)#Overview"
-			(at 205.74 49.53 0)
+			(at 242.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 49.53 0)
+			(at 242.57 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,34 +1789,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e2fa440c-2eef-410d-bade-0eb9b00f1240")
-		)
-		(pin "4"
-			(uuid "5a5f8682-2ba6-49ef-a754-00de34115a73")
-		)
-		(pin "8"
-			(uuid "0d643fa7-73d2-4cc3-ba73-7a3ab53c5fd4")
+		(pin "1"
+			(uuid "05d33209-5591-4d51-b2b2-1ddf4c32593e")
 		)
 		(pin "3"
-			(uuid "a96e04d6-1cb9-4b21-9c9f-f514821ef3c0")
+			(uuid "c50dc89a-6401-41fc-8212-ed689106060c")
+		)
+		(pin "4"
+			(uuid "950e38dc-1b62-455f-bbd3-76ea4fe8ae9d")
 		)
 		(pin "5"
-			(uuid "38dd68cc-6654-4959-a59e-2e68133750c5")
-		)
-		(pin "1"
-			(uuid "c641a3e3-9667-48dd-b6a5-c5865e0ddbbf")
+			(uuid "3a8e9153-9bf4-453d-8309-a13bc3fd132d")
 		)
 		(pin "6"
-			(uuid "9be16a6f-8d8d-41a3-b1ad-2b3ed78fd19f")
+			(uuid "4e1776d7-9a86-4dff-aee3-5da11c4bffda")
 		)
 		(pin "7"
-			(uuid "dd3acf52-a813-40c9-b5f9-97c4b1ffb8fa")
+			(uuid "c0ed0c33-c90b-4218-a59e-51ccc95bc3ee")
+		)
+		(pin "8"
+			(uuid "7bea72d2-9e8c-4650-996b-fd3605ba8799")
+		)
+		(pin "2"
+			(uuid "e48e20c9-a6b4-457d-b73b-f265635d15d6")
 		)
 		(instances
 			(project "VC5"
 				(path "/5ac87209-2525-401a-b136-a9d04031b521/451061d0-91e4-41cc-a859-91e1e96dc606"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1886,16 +1889,17 @@
 		)
 	)
 	(symbol
-		(lib_id "VC5_display:Display,_8_pin")
-		(at 133.35 49.53 0)
+		(lib_id "VC5_library:Waveshare-Display-1_3in-SH1106-OLED")
+		(at 97.79 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46d4b677-c2ea-4551-b7f3-275c6b224f23")
-		(property "Reference" "U2"
-			(at 133.35 51.4349 0)
+		(fields_autoplaced yes)
+		(uuid "52cc9ea7-92ad-4d36-82b3-920af54ea5bb")
+		(property "Reference" "U1"
+			(at 97.79 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1908,95 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 110.744 45.72 0)
+			(at 97.79 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.waveshare.com/wiki/1.3inch_OLED_(B)#Overview"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff2b30fd-95df-482f-bfb5-95acebb83c40")
+		)
+		(pin "3"
+			(uuid "9e516bbb-2dd2-4f68-ae2a-5c616843b7d0")
+		)
+		(pin "4"
+			(uuid "297725f4-7acd-49e2-b9d9-eb92332e47eb")
+		)
+		(pin "5"
+			(uuid "e2d63920-982e-485d-91b6-8a1799a0f053")
+		)
+		(pin "6"
+			(uuid "26452a7a-e7a9-402a-8b2e-3c8c8d7b5add")
+		)
+		(pin "7"
+			(uuid "10750d0c-3589-4506-bceb-26067fc39ddc")
+		)
+		(pin "8"
+			(uuid "d7cd1172-8bf8-42a2-b2dd-6c0b7086a9ce")
+		)
+		(pin "2"
+			(uuid "fadddb51-c48e-4a02-a1d2-af2c045719f9")
+		)
+		(instances
+			(project ""
+				(path "/5ac87209-2525-401a-b136-a9d04031b521/451061d0-91e4-41cc-a859-91e1e96dc606"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VC5_library:Waveshare-Display-1_3in-SH1106-OLED")
+		(at 133.35 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "588b2e16-f49c-47b5-8965-12378388a61a")
+		(property "Reference" "U2"
+			(at 133.35 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.3in SH1106 OLED"
+			(at 133.35 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,29 +2031,29 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "17f0cbd8-6818-410d-b579-d35d9567db3f")
-		)
-		(pin "4"
-			(uuid "6df13232-ca9f-4b3d-a753-7be7d7ac0322")
-		)
-		(pin "8"
-			(uuid "388e38e8-917f-42b4-8b1b-cabc339d8e57")
+		(pin "1"
+			(uuid "8a22a408-b9bb-44ae-8b08-eaeb36ea174e")
 		)
 		(pin "3"
-			(uuid "049a7e0f-9db0-45f9-ab8a-354bface2018")
+			(uuid "e4178e31-38e3-4df2-8dfa-53724ce7b7fc")
+		)
+		(pin "4"
+			(uuid "eaf344fe-b5d2-4564-994d-adb40596becc")
 		)
 		(pin "5"
-			(uuid "405e6b76-2894-41b0-b0ed-6b3a43127339")
-		)
-		(pin "1"
-			(uuid "06e3e817-628e-4b15-a66a-9bcea6f7186e")
+			(uuid "47c9cff9-c266-41ab-9014-db9eb439e500")
 		)
 		(pin "6"
-			(uuid "907c78ed-1151-401d-aa09-fcdd8f180163")
+			(uuid "f426343e-aa38-422d-8fc5-fa197bdf0e1d")
 		)
 		(pin "7"
-			(uuid "93e66c89-746f-4cd2-9e11-a64a4052f06b")
+			(uuid "62517b92-940a-42bb-93cc-228250107e8a")
+		)
+		(pin "8"
+			(uuid "844a1b51-bda3-4807-8fd9-98a15896b127")
+		)
+		(pin "2"
+			(uuid "9d3f7067-5841-4e09-94b8-b2d98f91a941")
 		)
 		(instances
 			(project "VC5"
@@ -1973,16 +2065,105 @@
 		)
 	)
 	(symbol
-		(lib_id "VC5_display:Display,_8_pin")
+		(lib_id "VC5_library:Waveshare-Display-1_3in-SH1106-OLED")
+		(at 205.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86cda82a-835c-4de9-872e-1e43422b3d4d")
+		(property "Reference" "U4"
+			(at 205.74 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.3in SH1106 OLED"
+			(at 205.74 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.waveshare.com/wiki/1.3inch_OLED_(B)#Overview"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e688c54-f26b-4eac-9170-d4da41554324")
+		)
+		(pin "3"
+			(uuid "9eae005b-6e85-4177-8ed2-a38ddd711ab5")
+		)
+		(pin "4"
+			(uuid "2b0fce50-54be-4072-84bc-ae88444f6207")
+		)
+		(pin "5"
+			(uuid "49d2821c-c065-4d93-ad72-6150d2d36afe")
+		)
+		(pin "6"
+			(uuid "187444c0-abbd-4777-8c0e-a317ac3aea48")
+		)
+		(pin "7"
+			(uuid "c0f1bf18-488f-4482-b2e2-21a8845a8118")
+		)
+		(pin "8"
+			(uuid "e72c8e05-c265-4a55-b04c-98c5123ae2c6")
+		)
+		(pin "2"
+			(uuid "90b46262-6f05-43f5-bd65-67e0b6cc9fe5")
+		)
+		(instances
+			(project "VC5"
+				(path "/5ac87209-2525-401a-b136-a9d04031b521/451061d0-91e4-41cc-a859-91e1e96dc606"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VC5_library:Waveshare-Display-1_3in-SH1106-OLED")
 		(at 168.91 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "501fc6ca-f362-4990-b59c-63ccacb6b752")
+		(fields_autoplaced yes)
+		(uuid "a8b6fe00-3859-4b40-9de2-b5469efac2a2")
 		(property "Reference" "U3"
-			(at 168.91 51.4349 0)
+			(at 168.91 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2172,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 146.812 45.974 0)
+			(at 168.91 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,208 +2207,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3b2cbb87-c16b-49b8-98fe-2ec07849593d")
-		)
-		(pin "4"
-			(uuid "f13c3af0-8f8e-4ffa-a4a5-cecb1bd7ceb2")
-		)
-		(pin "8"
-			(uuid "745bd225-fc71-4b5c-9984-e4607dc2f238")
+		(pin "1"
+			(uuid "61c55fcc-0117-43af-92ff-f164e4e6dafc")
 		)
 		(pin "3"
-			(uuid "ee46e811-abe6-43b6-abae-04c1d9bb97d3")
+			(uuid "3bac69c2-10f6-42cc-a157-6d0918467021")
+		)
+		(pin "4"
+			(uuid "c774de2f-6a1b-4c3e-a2a9-03498ecb40d5")
 		)
 		(pin "5"
-			(uuid "c3b7bb97-927c-498f-8185-55eadbcb6300")
-		)
-		(pin "1"
-			(uuid "49a4fc1a-e2e1-49cc-9d76-b154ff5d3a24")
+			(uuid "ad0a58d7-aad3-4cef-a73f-ccdf07f05193")
 		)
 		(pin "6"
-			(uuid "fbadb75d-6616-4a1e-beec-386ff36fc12e")
+			(uuid "8a7eb4ab-161e-43e4-b167-12ef63517088")
 		)
 		(pin "7"
-			(uuid "f461e4ee-4978-4b27-a757-048f93b513a3")
+			(uuid "2a143bc2-0b6b-47f4-a66e-191acf60d035")
+		)
+		(pin "8"
+			(uuid "ee2a9db8-43eb-4bf4-9c5b-1a0ca25e7f28")
+		)
+		(pin "2"
+			(uuid "1de6039f-a508-4be4-b11d-4ac382d88949")
 		)
 		(instances
 			(project "VC5"
 				(path "/5ac87209-2525-401a-b136-a9d04031b521/451061d0-91e4-41cc-a859-91e1e96dc606"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VC5_display:Display,_8_pin")
-		(at 97.79 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84cfe1bf-0463-4843-ad0b-c2b50557d130")
-		(property "Reference" "U1"
-			(at 97.79 51.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.3in SH1106 OLED"
-			(at 75.438 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.waveshare.com/wiki/1.3inch_OLED_(B)#Overview"
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0c348a3-2d9f-4f32-9e67-702ecff26525")
-		)
-		(pin "4"
-			(uuid "9d6646e6-be40-4d21-af1a-0b2496b8b4d6")
-		)
-		(pin "8"
-			(uuid "538dabf4-25e9-4404-aed7-ef0a9bfa40d7")
-		)
-		(pin "3"
-			(uuid "eeae41c7-7bc1-471c-8bf7-d0fd784edd41")
-		)
-		(pin "5"
-			(uuid "b2d47a65-60ba-454b-ae9a-439b43b0a864")
-		)
-		(pin "1"
-			(uuid "cb512490-f382-4ea2-99db-0dceeef64e53")
-		)
-		(pin "6"
-			(uuid "0313cf90-6974-4c75-97bf-c48cfe6ab239")
-		)
-		(pin "7"
-			(uuid "6ec88ed0-ab7a-49d2-abf9-b047f0ee847a")
-		)
-		(instances
-			(project "VC5"
-				(path "/5ac87209-2525-401a-b136-a9d04031b521/451061d0-91e4-41cc-a859-91e1e96dc606"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VC5_display:Display,_8_pin")
-		(at 242.57 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef1aa4ff-cc82-465f-9410-27de68521bc2")
-		(property "Reference" "U5"
-			(at 242.57 51.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.3in SH1106 OLED"
-			(at 220.218 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.waveshare.com/wiki/1.3inch_OLED_(B)#Overview"
-			(at 242.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74d00711-8878-42ca-8595-0bf9e0741628")
-		)
-		(pin "4"
-			(uuid "413dd238-239a-406c-80da-e05ed5245597")
-		)
-		(pin "8"
-			(uuid "17dceabe-8479-40f4-954e-2519c7651382")
-		)
-		(pin "3"
-			(uuid "3070c54c-829a-424d-a500-51452cfcfd14")
-		)
-		(pin "5"
-			(uuid "74bb98c7-9d3f-4e07-852c-940c99879788")
-		)
-		(pin "1"
-			(uuid "15796a8b-6163-432c-b305-2b6cfa15be1a")
-		)
-		(pin "6"
-			(uuid "77cbc806-7fe0-42c8-8e8d-6f485e86b5f6")
-		)
-		(pin "7"
-			(uuid "30bb41a2-341f-4ec7-b23d-55cd3ccd05b5")
-		)
-		(instances
-			(project "VC5"
-				(path "/5ac87209-2525-401a-b136-a9d04031b521/451061d0-91e4-41cc-a859-91e1e96dc606"
-					(reference "U5")
 					(unit 1)
 				)
 			)

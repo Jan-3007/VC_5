@@ -247,7 +247,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "VC5_library"
+    ]
   },
   "meta": {
     "filename": "VC5.kicad_pro",
