@@ -1742,7 +1742,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ce42bb6-5cca-46a5-8c0b-3db372eb26ec")
 		(property "Reference" "U5"
 			(at 242.57 50.7999 0)
@@ -1754,7 +1753,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 242.57 53.3399 0)
+			(at 220.218 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 242.57 49.53 0)
 			(effects
 				(font
@@ -1896,7 +1895,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52cc9ea7-92ad-4d36-82b3-920af54ea5bb")
 		(property "Reference" "U1"
 			(at 97.79 50.7999 0)
@@ -1908,7 +1906,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 97.79 53.3399 0)
+			(at 75.184 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -1984,7 +1982,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "588b2e16-f49c-47b5-8965-12378388a61a")
 		(property "Reference" "U2"
 			(at 133.35 50.7999 0)
@@ -1996,7 +1993,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 133.35 53.3399 0)
+			(at 110.998 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -2072,7 +2069,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86cda82a-835c-4de9-872e-1e43422b3d4d")
 		(property "Reference" "U4"
 			(at 205.74 50.7999 0)
@@ -2084,7 +2080,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 205.74 53.3399 0)
+			(at 183.134 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 205.74 49.53 0)
 			(effects
 				(font
@@ -2160,7 +2156,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8b6fe00-3859-4b40-9de2-b5469efac2a2")
 		(property "Reference" "U3"
 			(at 168.91 50.7999 0)
@@ -2172,7 +2167,7 @@
 			)
 		)
 		(property "Value" "1.3in SH1106 OLED"
-			(at 168.91 53.3399 0)
+			(at 146.304 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 168.91 49.53 0)
 			(effects
 				(font
