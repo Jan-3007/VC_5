@@ -1,4 +1,4 @@
-24739087008033264
+24742589670141223
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98735,12 +98735,26 @@ MCP23017_IO_expander
 30
 28
 VC5_footprint_library
-PEC11R_4220F_S0024
+PEC11R4220FS0024
 PEC11R-4220F-S0024-2
-Variable Resistor
+rotary
 0
 7
 7
+VC5_footprint_library
+PinHeader_1x08_P2.54mm_Vertical_Display
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+VC5_footprint_library
+RaspberryPi_Pico_Common_THT_custom
+Raspberry Pi Pico common (Pico & Pico W) through-hole footprint, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+module usb pcb antenna
+0
+40
+40
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

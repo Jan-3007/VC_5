@@ -1,14 +1,14 @@
-(footprint "PEC11R_4220F_S0024"
+(footprint "PEC11R4220FS0024"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PEC11R-4220F-S0024-2")
-	(tags "Variable Resistor")
+	(tags "rotary")
 	(property "Reference" "VR**"
 		(at 2.5 7.25 0)
 		(layer "F.SilkS")
-		(uuid "101f5989-40b6-4748-a822-dfdeb77b4892")
+		(uuid "a34e53fd-07a4-45b7-9634-b2db1c371406")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "PEC11R_4220F_S0024"
+	(property "Value" "PEC11R4220FS0024"
 		(at 2.5 7.25 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "ed3ee5a2-ed38-4d94-b260-d4d801012571")
+		(uuid "29ef8d17-6546-4815-8a4d-e515f5cea6e2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a442d89-aa39-40e6-b5ab-868027e00843")
+		(uuid "3a9a1d01-2f37-4f1e-b0af-1752816ed932")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "205771a9-fa41-4ae6-8947-fe4b62f4afc4")
+		(uuid "8012b1f2-455e-46ae-b4c6-59d5dccef9fc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "81a0a8a2-d034-4bde-9d7d-94011a30f303")
+		(uuid "e31830e6-26d6-4e64-a334-d8408263da43")
 	)
 	(fp_line
 		(start -3.75 4)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6f924a71-e4bf-4b41-b1bd-b412ef4468d3")
+		(uuid "a858daf2-b3c4-467a-b072-62e7ae5e8d4e")
 	)
 	(fp_line
 		(start -3.75 10)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b017fa9d-a151-4b66-8f70-fe87a12c241b")
+		(uuid "50497c20-eb0b-403c-8b8a-1165d86ea134")
 	)
 	(fp_line
 		(start -3.75 13.7)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7276b493-a76b-42b5-926d-4011859d1389")
+		(uuid "8f42538e-9aab-4a4a-a150-73fed7458585")
 	)
 	(fp_line
 		(start 6.5 0.3)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "11ac09b7-1797-4215-a243-f06f3590cedb")
+		(uuid "92fded85-5c60-4c31-94ea-9d74f9a89777")
 	)
 	(fp_line
 		(start 6.5 13.7)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a9126833-2aae-4c8f-ad51-ca5a5ef76177")
+		(uuid "a66efed2-9d40-4b2f-99c7-9522ace498e5")
 	)
 	(fp_line
 		(start 8.75 0.3)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0bf884b6-c3fa-4c3c-846e-0e31b611a8bb")
+		(uuid "e3a7d279-dd63-449b-8164-384bf2df02e0")
 	)
 	(fp_line
 		(start 8.75 13.7)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "664f8475-5281-4d9e-8ec0-8de8c4d09616")
+		(uuid "e057a096-2cfe-439a-ae58-09b47fa99fe5")
 	)
 	(fp_line
 		(start -6.781 -1.825)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d40050c5-16fd-4c5d-b7b9-34b4f3ba9f94")
+		(uuid "726942a1-a8c5-43c1-90dc-2fc8b5aa40a6")
 	)
 	(fp_line
 		(start -6.781 16.325)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "18252648-2661-4ebc-87e1-0790d4258e24")
+		(uuid "57a23740-2fc5-415d-aa42-8b0c5edf6e89")
 	)
 	(fp_line
 		(start 11.781 -1.825)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c07ba8af-e90f-4e6b-97d4-2f21cd3c5538")
+		(uuid "346d0321-17c5-49af-b937-f23fd8c06cbb")
 	)
 	(fp_line
 		(start 11.781 16.325)
@@ -171,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ce7effdf-1b2e-4f00-8153-4790de366f1b")
+		(uuid "7d4e118d-1b97-41e0-9e92-7e266bcdf591")
 	)
 	(fp_line
 		(start -3.75 0.3)
@@ -181,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9a3eeaae-b180-4383-bb15-91142a86ba2f")
+		(uuid "52d9e275-70f8-46c2-adcc-e46e9184d3dc")
 	)
 	(fp_line
 		(start -3.75 13.7)
@@ -191,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "20b5300f-cd01-4d3a-b3a6-90adc4bea4bb")
+		(uuid "29b2f20e-6e66-4375-961d-a46eddc79982")
 	)
 	(fp_line
 		(start 8.75 0.3)
@@ -201,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fd56668f-f51b-42af-b410-9b097e00d6e3")
+		(uuid "50e3c2c4-4bed-48ea-80d4-5c06c5abc5da")
 	)
 	(fp_line
 		(start 8.75 13.7)
@@ -211,12 +211,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f11ed802-7247-46bf-b7d7-ee4c3e386a80")
+		(uuid "22f4519b-8d2b-452c-92fe-3a857b1db0d2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 7.25 0)
 		(layer "F.Fab")
-		(uuid "6283fc6b-9bd1-43ce-9517-7505d1201d3a")
+		(uuid "0f45e8f0-4bc4-42f0-b75b-a6d1b0e942d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -230,7 +230,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8ad46fc8-1720-445c-9e8c-09d66b8c2aea")
+		(uuid "10b8dea9-5674-42a9-a46f-f21d939b08a3")
 	)
 	(pad "2" thru_hole circle
 		(at 5 0)
@@ -238,7 +238,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0275296c-c3e1-4ced-b0bc-b9cc9875bf66")
+		(uuid "392426f6-1965-4714-a099-8c0fccae1aa3")
 	)
 	(pad "A1" thru_hole circle
 		(at 0 14.5)
@@ -246,7 +246,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a71dfe34-f70c-4faf-b841-a658636511f7")
+		(uuid "3182a4c6-33c3-4267-9cce-1dbc2dfe0552")
 	)
 	(pad "B1" thru_hole circle
 		(at 5 14.5)
@@ -254,7 +254,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cc97063d-bc0d-432d-af03-d7d18571e7b3")
+		(uuid "f8217ae3-43c9-4d37-85fa-af12eea1e935")
 	)
 	(pad "C1" thru_hole circle
 		(at 2.5 14.5)
@@ -262,7 +262,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "dc433ea5-87d1-4b77-9e88-a0ff5683b8e0")
+		(uuid "955f7538-4d33-404f-bbd8-79ce1d950f98")
 	)
 	(pad "MH1" thru_hole circle
 		(at -3.2 7)
@@ -270,7 +270,7 @@
 		(drill 3.4409)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "733221b2-784f-4353-b11a-03f8793f634b")
+		(uuid "0646012a-4931-4d45-a654-a7785e5ad176")
 	)
 	(pad "MH2" thru_hole circle
 		(at 8.2 7)
@@ -278,10 +278,10 @@
 		(drill 3.4409)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "67d16854-fea8-429e-bff1-3453afbd8835")
+		(uuid "76af7b05-bb45-4ca3-873a-bc83fa367532")
 	)
 	(embedded_fonts no)
-	(model "PEC11R-4220F-S0024.stp"
+	(model "${KIPRJMOD}/components/rotary/PEC11R-4220F-S0024.stp"
 		(offset
 			(xyz 2.499999962 -7.459999926 5.099999828)
 		)

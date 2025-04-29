@@ -33,7 +33,7 @@
     (property "Arrow Part Number" "PEC11R-4220F-S0024" (at 21.59 -889.84 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac" (at 21.59 -989.84 0)
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe" (at 21.59 -989.84 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (rectangle

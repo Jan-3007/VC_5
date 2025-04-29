@@ -978,7 +978,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 				(at 21.59 -989.84 0)
 				(effects
 					(font
@@ -1003,14 +1003,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "MH2"
+					(name "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MH2"
+					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1111,14 +1111,14 @@
 				(pin passive line
 					(at 25.4 0 180)
 					(length 5.08)
-					(name "MH1"
+					(name "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MH1"
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VC5_footprint_library:PEC11R_4220F_S0024"
+		(property "Footprint" "VC5_footprint_library:PEC11R4220FS0024"
 			(at 167.97 50.8 0)
 			(effects
 				(font
@@ -3968,7 +3968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 			(at -732.03 50.8 0)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VC5_footprint_library:PEC11R_4220F_S0024"
+		(property "Footprint" "VC5_footprint_library:PEC11R4220FS0024"
 			(at 114.63 50.8 0)
 			(effects
 				(font
@@ -4265,7 +4265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 			(at -785.37 50.8 0)
 			(effects
 				(font
@@ -4306,156 +4306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VC5_library:MCP23017")
-		(at 106.68 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "203bb15a-cec8-4fc7-892e-93463ec40d47")
-		(property "Reference" "U6"
-			(at 78.74 154.0667 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP23017"
-			(at 81.28 154.0667 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VC5_footprint_library:MCP23017_IO_expander"
-			(at 132.08 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.waveshare.com/wiki/MCP23017_IO_Expansion_Board"
-			(at 134.62 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, QFN-28"
-			(at 106.68 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "ed114210-1cf1-4527-90ac-c21cb768aabb")
-		)
-		(pin "11"
-			(uuid "1e1964e1-4111-40d1-9bee-59dc091f60c6")
-		)
-		(pin "6"
-			(uuid "46a8922f-c5e9-4e42-87b7-e8f3494cdc25")
-		)
-		(pin "14"
-			(uuid "f28c3c4e-d3ff-4206-8a75-93d1b8dd425b")
-		)
-		(pin "13"
-			(uuid "1dea77fb-471d-411e-9edb-f564384ba293")
-		)
-		(pin "16"
-			(uuid "8f204762-d20c-469e-a520-9961535bfc8f")
-		)
-		(pin "9"
-			(uuid "817ca256-1691-4fac-8808-d2766c5c02ec")
-		)
-		(pin "7"
-			(uuid "207e31d9-e041-4eb1-977f-0f8aec5440e8")
-		)
-		(pin "5"
-			(uuid "9045469b-8acc-4f78-8d19-0bf8858b086b")
-		)
-		(pin "25"
-			(uuid "a23a17de-52ee-41d4-b3c2-648e003ab32c")
-		)
-		(pin "1"
-			(uuid "00dec9e7-2104-42db-a40c-86d0fbe801d1")
-		)
-		(pin "8"
-			(uuid "bdd30214-29b0-4a58-88e1-163849eb06c5")
-		)
-		(pin "15"
-			(uuid "0ca044cc-e77a-4c80-9796-6f299f9e75dc")
-		)
-		(pin "10"
-			(uuid "3303e76b-c20b-421a-9e13-016827cbc811")
-		)
-		(pin "26"
-			(uuid "4ef8dcef-92c2-4b03-b6f1-7bc41f0325b6")
-		)
-		(pin "27"
-			(uuid "3289d655-2b87-41df-94bc-acf7a7940ea1")
-		)
-		(pin "28"
-			(uuid "16141c8a-1297-4fa2-bee5-934d4da55988")
-		)
-		(pin "2"
-			(uuid "1e2c1025-e1c7-4e6f-8523-aff50437692b")
-		)
-		(pin "3"
-			(uuid "4b6dabf9-aa75-4787-9bf7-357dff9ba244")
-		)
-		(pin "4"
-			(uuid "ded630b5-7c9f-4087-81f3-25600f45b901")
-		)
-		(pin "17"
-			(uuid "024f57e1-0b76-42cd-8b50-bdd33361aa8c")
-		)
-		(pin "18"
-			(uuid "67934d36-931e-4b84-b3fd-cf6dc8f83795")
-		)
-		(pin "19"
-			(uuid "90b1e357-bcbc-473a-96e2-20725f7d328c")
-		)
-		(pin "20"
-			(uuid "c7bc661e-4345-4c9d-b22c-8f25f555fc45")
-		)
-		(pin "21"
-			(uuid "39a0558a-cfce-4205-a292-71c7fd8ff3b6")
-		)
-		(pin "24"
-			(uuid "28ce0340-b6f7-42a1-b5b1-a99f4f0c7af3")
-		)
-		(pin "23"
-			(uuid "18a6d212-85cb-405b-88ac-9ed255df37f0")
-		)
-		(pin "22"
-			(uuid "a1abd073-cb2e-487a-b324-9ed170869f81")
-		)
-		(instances
-			(project ""
-				(path "/5ac87209-2525-401a-b136-a9d04031b521/fc2974f5-8ba8-49d8-a499-cee7d56a2b2e"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "VC5_library:PEC11R-4220F-S0024")
 		(at 96.52 29.21 270)
 		(unit 1)
@@ -4483,7 +4333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VC5_footprint_library:PEC11R_4220F_S0024"
+		(property "Footprint" "VC5_footprint_library:PEC11R4220FS0024"
 			(at 6.68 50.8 0)
 			(effects
 				(font
@@ -4572,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 			(at -893.32 50.8 0)
 			(effects
 				(font
@@ -4640,7 +4490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VC5_footprint_library:PEC11R_4220F_S0024"
+		(property "Footprint" "VC5_footprint_library:PEC11R4220FS0024"
 			(at 61.29 50.8 0)
 			(effects
 				(font
@@ -4729,7 +4579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 			(at -838.71 50.8 0)
 			(effects
 				(font
@@ -4794,7 +4644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 255.27 62.5348 0)
 			(effects
 				(font
@@ -5272,7 +5122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 147.32 82.8548 0)
 			(effects
 				(font
@@ -5549,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 93.98 62.5348 0)
 			(effects
 				(font
@@ -5616,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 40.64 62.5348 0)
 			(effects
 				(font
@@ -5683,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 93.98 82.8548 0)
 			(effects
 				(font
@@ -5956,7 +5806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 255.27 82.8548 0)
 			(effects
 				(font
@@ -6023,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 201.93 82.8548 0)
 			(effects
 				(font
@@ -6090,7 +5940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 40.64 82.8548 0)
 			(effects
 				(font
@@ -6300,7 +6150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VC5_footprint_library:PEC11R_4220F_S0024"
+		(property "Footprint" "VC5_footprint_library:PEC11R4220FS0024"
 			(at -47.93 50.8 0)
 			(effects
 				(font
@@ -6389,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 			(at -947.93 50.8 0)
 			(effects
 				(font
@@ -6941,7 +6791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 201.93 62.5348 0)
 			(effects
 				(font
@@ -7215,7 +7065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 147.32 62.5348 0)
 			(effects
 				(font
@@ -7252,6 +7102,154 @@
 			(project "VC5"
 				(path "/5ac87209-2525-401a-b136-a9d04031b521/fc2974f5-8ba8-49d8-a499-cee7d56a2b2e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VC5_library:MCP23017")
+		(at 106.68 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7184050-11e0-48f9-8e99-08788c75380c")
+		(property "Reference" "U6"
+			(at 135.89 150.7646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP23017"
+			(at 135.89 153.3046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VC5_footprint_library:MCP23017_IO_expander"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.waveshare.com/wiki/MCP23017_IO_Expansion_Board"
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, QFN-28"
+			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "85813f9b-1b41-46cf-9fdf-f8aae58587c4")
+		)
+		(pin "27"
+			(uuid "396ef793-e29e-4b91-bed0-12d8477f73db")
+		)
+		(pin "12"
+			(uuid "ea12aa7d-5a50-48f7-9897-6f3df22d5862")
+		)
+		(pin "8"
+			(uuid "3fd89c9f-aec8-4317-9a74-b0cda1f3dcee")
+		)
+		(pin "11"
+			(uuid "d115a8b1-7c1b-4f10-ba3d-93a25d6a7cd7")
+		)
+		(pin "9"
+			(uuid "d36ac839-cc8a-498d-ad7c-824959b7e2c7")
+		)
+		(pin "16"
+			(uuid "04ba7f39-0bd3-4987-a8bb-9e5acfa3a4b0")
+		)
+		(pin "25"
+			(uuid "bab04b2b-8381-43ba-b25c-28260937586b")
+		)
+		(pin "26"
+			(uuid "16a06090-12e5-4834-b09b-c872d3e68989")
+		)
+		(pin "6"
+			(uuid "23e9a2c9-10ad-463d-b092-d2e575d12f1b")
+		)
+		(pin "15"
+			(uuid "e8f82eb7-4ddf-464e-a938-b9e1bbcfe42f")
+		)
+		(pin "14"
+			(uuid "1f3c20e5-2815-47c1-be6c-e3417491ae23")
+		)
+		(pin "7"
+			(uuid "2c1c258b-b938-40b4-916d-11ff6771c53f")
+		)
+		(pin "10"
+			(uuid "bbe45b2c-62a0-4fb5-91f5-f47303a0adc2")
+		)
+		(pin "5"
+			(uuid "ffb0ccf0-951f-4e6e-95b6-d6a3962eda0e")
+		)
+		(pin "23"
+			(uuid "3c1fea41-93b5-4479-9800-360e692beccc")
+		)
+		(pin "22"
+			(uuid "82ff907d-42f1-413c-abac-fea2c9ecb5f0")
+		)
+		(pin "20"
+			(uuid "e3bb9e04-fd79-4ef5-b33e-ce07733a89ce")
+		)
+		(pin "19"
+			(uuid "0a76fd72-a809-4aed-b438-14ba3da48790")
+		)
+		(pin "28"
+			(uuid "f13d3f2a-6325-4149-9670-b6eb7772a4f1")
+		)
+		(pin "3"
+			(uuid "e78b0b12-209c-4443-9a53-f0430434a7bd")
+		)
+		(pin "18"
+			(uuid "ba9eb9fa-7dab-43ce-9fb0-20400f7efbcf")
+		)
+		(pin "2"
+			(uuid "48b4d6c7-f2e4-4064-a0bc-efe90b1d65ad")
+		)
+		(pin "1"
+			(uuid "74ad414e-be34-482d-a6bd-8f92e90cf7ba")
+		)
+		(pin "4"
+			(uuid "91ad348b-575e-4f19-9cc3-35db24d709cb")
+		)
+		(pin "21"
+			(uuid "3d3907f5-f37c-43d5-912b-66821b4ee91f")
+		)
+		(pin "17"
+			(uuid "35a05a8c-9260-4bad-b4bf-746a60d47c82")
+		)
+		(pin "24"
+			(uuid "20985a41-71fb-43b6-a866-b8004c0520d1")
+		)
+		(instances
+			(project ""
+				(path "/5ac87209-2525-401a-b136-a9d04031b521/fc2974f5-8ba8-49d8-a499-cee7d56a2b2e"
+					(reference "U6")
 					(unit 1)
 				)
 			)

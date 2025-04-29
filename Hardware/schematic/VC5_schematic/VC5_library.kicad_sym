@@ -706,7 +706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pec11r-4220f-s0024/bourns?utm_currency=USD&region=europe"
 			(at 21.59 -989.84 0)
 			(effects
 				(font
@@ -731,14 +731,14 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
-				(name "MH2"
+				(name "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "MH2"
+				(number "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -839,14 +839,14 @@
 			(pin passive line
 				(at 25.4 0 180)
 				(length 5.08)
-				(name "MH1"
+				(name "MH2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "MH1"
+				(number "MH2"
 					(effects
 						(font
 							(size 1.27 1.27)
