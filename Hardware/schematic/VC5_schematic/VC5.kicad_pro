@@ -187,7 +187,8 @@
       ],
       "track_widths": [
         0.0,
-        0.5,
+        0.6,
+        1.0,
         1.5
       ],
       "tuning_pattern_settings": {
@@ -493,7 +494,38 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3V3Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5VPower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -508,26 +540,9 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -540,16 +555,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "3V3Power",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Power",
+        "netclass": "5VPower",
         "pattern": "+5V"
       },
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net*"
       }
     ]
   },
@@ -558,7 +581,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Documents/01-Schaltplan/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -723,7 +746,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/jans-laptop/Nextcloud/Docs/Documents/05-Projekte/VC_5/Documents/01-Schaltplan/",
+    "plot_directory": "../../../Documents/01-Schaltplan/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
