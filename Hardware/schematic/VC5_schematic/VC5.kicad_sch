@@ -1563,10 +1563,6 @@
 		(uuid "341ecd6e-4dd9-4071-acf2-117f5a9e828a")
 	)
 	(no_connect
-		(at 130.81 63.5)
-		(uuid "36d2491a-7233-4dee-9b3a-a25dcfaa9766")
-	)
-	(no_connect
 		(at 130.81 68.58)
 		(uuid "3efc875f-c2f7-4e82-821a-fc0735f1056b")
 	)
@@ -1893,6 +1889,16 @@
 			(type default)
 		)
 		(uuid "b84e1b59-4089-4c5f-8dd7-2a9968e682f4")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0405dd9-2f7f-42a0-9e27-b1b85927ab2c")
 	)
 	(wire
 		(pts
@@ -2752,6 +2758,16 @@
 		(pin "MCP_RESET" input
 			(at 59.69 60.96 0)
 			(uuid "e0f698b2-6eed-421d-9202-0edb5629fd59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCP_INT" input
+			(at 59.69 63.5 0)
+			(uuid "e076380c-f321-4e74-9831-99b7694eaca1")
 			(effects
 				(font
 					(size 1.27 1.27)
