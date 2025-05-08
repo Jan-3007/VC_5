@@ -1109,7 +1109,7 @@
 		(at 92.71 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00dc64e6-8e60-403d-bdc9-791d40266674")
+		(uuid "2324df41-36c2-4568-8cf7-3b15675ab01a")
 	)
 	(junction
 		(at 179.07 72.39)
@@ -1169,7 +1169,7 @@
 		(at 92.71 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6104fd2-ac60-4e96-896a-0716f834fa18")
+		(uuid "a8e4382f-9125-4125-9be2-782a9aa27198")
 	)
 	(junction
 		(at 179.07 101.6)
@@ -1301,16 +1301,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396a537b-ae2f-4afd-a9fa-2f7b12ed3fa0")
-	)
-	(wire
-		(pts
 			(xy 44.45 85.09) (xy 62.23 85.09)
 		)
 		(stroke
@@ -1338,6 +1328,36 @@
 			(type default)
 		)
 		(uuid "4f7ee369-89b5-4d89-a7c7-0b555f9ba715")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50941584-85f2-40e4-aa3a-fc821a3fcf6f")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 92.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510344cc-eb5b-45ed-87fa-73a13aa37dc8")
+	)
+	(wire
+		(pts
+			(xy 92.71 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537d4fb6-252b-465c-a2b9-2318e52e533f")
 	)
 	(wire
 		(pts
@@ -1388,16 +1408,6 @@
 			(type default)
 		)
 		(uuid "6ac2dbc0-9f6f-4ecb-9593-8b96122debf0")
-	)
-	(wire
-		(pts
-			(xy 92.71 62.23) (xy 92.71 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70969ae2-df8c-4364-957c-b8d2437a1c9b")
 	)
 	(wire
 		(pts
@@ -1708,16 +1718,6 @@
 			(type default)
 		)
 		(uuid "ef0aa01a-cf7e-421d-8f1d-1e1c3b158cec")
-	)
-	(wire
-		(pts
-			(xy 105.41 85.09) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f004062d-38c4-4b9d-b9fd-3d5f48142b58")
 	)
 	(wire
 		(pts
@@ -2554,7 +2554,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 76.2 0)
+		(at 92.71 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2563,7 +2563,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd348195-65c8-4f9d-b77c-7f20c3047e5b")
 		(property "Reference" "R2"
-			(at 95.25 74.9299 0)
+			(at 95.25 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2572,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 95.25 77.4699 0)
+			(at 95.25 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 90.932 76.2 90)
+			(at 90.932 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 76.2 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 76.2 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
