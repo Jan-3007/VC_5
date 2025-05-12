@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|119990000|65100000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|1502646d-58ee-4f14-968a-87614868e504|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|144087078|68750000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|35f38767-f884-4c02-a7fe-8006b345efb0|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|165490000|65100000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|b181844d-f986-4822-a7a1-dd77c3afdfe5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|210990000|65100000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|916ef12c-703f-42bf-bb97-120b7ee0f267|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|216050000|90111000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|c494c517-e82c-45e1-818c-1efd3d994a69|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|238140000|116469000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|63f9f796-3d10-4e7d-9001-d44d01d56967|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|256490000|65110000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|686294ee-6ad2-47b7-a04a-296d57ea116c|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|74490000|65100000|7a4c2345-0dfe-41d0-a777-5dfc7e91bf81|478174fe-ae6a-4733-beb2-8abb01a62e44|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -227,7 +260,7 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.3
         }
       ],
@@ -500,7 +533,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -515,7 +548,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.35,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -581,7 +614,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../Documents/01-Schaltplan/",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
