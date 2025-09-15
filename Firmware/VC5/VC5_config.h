@@ -20,19 +20,19 @@ constexpr uint32_t c_i2c_scl_pin = 7;
 constexpr uint32_t c_mcp_int_pin = 3;
 
 // LEDs
-constexpr uint32_t c_led_pin = 20;
+constexpr uint32_t c_led_pin = 16;
 
 // Displays
 constexpr int c_spi_data_pin = 19;
 constexpr int c_spi_clk_pin = 18;
-constexpr int c_spi_dc_pin = 16;
+constexpr int c_spi_dc_pin = 17;
 constexpr int c_disp_reset_pin = 10;
 
-constexpr int c_spi_cs0_pin = 12;
-constexpr int c_spi_cs1_pin = 13;
-constexpr int c_spi_cs2_pin = 14;
-constexpr int c_spi_cs3_pin = 17;
-constexpr int c_spi_cs4_pin = 15;
+constexpr int c_spi_cs0_pin = 15;
+constexpr int c_spi_cs1_pin = 20;
+constexpr int c_spi_cs2_pin = 21;
+constexpr int c_spi_cs3_pin = 14;
+constexpr int c_spi_cs4_pin = 13;
 
 
 

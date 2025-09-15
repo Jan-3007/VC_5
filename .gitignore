@@ -28,6 +28,7 @@ Hardware/schematic/VC5-backups/
 *.png
 *.jpg
 *.zip
+*.kicad_prl
 
 # temp
 Documents/
