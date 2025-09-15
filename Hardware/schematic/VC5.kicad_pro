@@ -617,7 +617,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../3D_model/VC5_PCB_model.step",
       "svg": "",
       "vrml": ""
     },
@@ -779,7 +779,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "../../../Documents/01-Schaltplan/",
+    "plot_directory": "../../Documents/01-Schaltplan/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
