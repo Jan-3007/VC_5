@@ -21,6 +21,7 @@ The aim of this project is to create an external device, which allows the user t
 ## Hardware
 A number of rotaries are available as input (number set to 5 within the config file of this project) and LED's and displays to show any kind of status.
 The schematic for the device can be found at _Harware/schematic_.
+Note: Soldering Pads in the schematic might be 0.1 mm thick, still working on a solution.
 
 ## Software
 The software consists of two parts.
